@@ -5,7 +5,7 @@ const Nav = (props) => {
   return (
     <Navbar
       alignLinks="right"
-      brand={<a className="brand-logo" href="">Onias Israel</a>}
+      brand={<a className="brand-logo" href="#home">Onias Israel</a>}
       centerChildren
       id="mobile-nav"
       menuIcon={<Icon>menu</Icon>}
@@ -20,14 +20,15 @@ const Nav = (props) => {
         outDuration: 200,
         preventScrolling: true
       }}
+      className="black"
     >
-      <NavItem href="">
+      <NavItem href="#about">
         About
       </NavItem>
-      <NavItem href="">
+      <NavItem href="#projects">
         Projects
       </NavItem>
-      <NavItem href="">
+      <NavItem href="#contact">
         Contact
       </NavItem>
     </Navbar>
