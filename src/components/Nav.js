@@ -32,7 +32,7 @@ const Nav = (props) => {
         Contact
       </NavItem>
     </Navbar>
-  )
+  );
 };
 
 export default Nav;

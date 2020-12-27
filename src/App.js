@@ -9,14 +9,14 @@ import index from './index.css';
 function App() {
   return (
     <div className="">
-      <Nav />
-      <Home />
+      {/* <Nav /> */}
+      {/* <Home /> */}
       <About />
       <Projects />
       <Contact />
-      <Foot />
+      {/* <Foot /> */}
     </div>
   );
-}
+};
 
 export default App;
