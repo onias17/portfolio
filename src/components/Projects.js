@@ -131,10 +131,10 @@ const Projects = (props) => {
         {/* ANIBLITZ */}
         <div className="row proj" id="mytrax">
           <div className="col s12 m6" >
-            <h4 className="center">AniBlitz!</h4>
+            <h4 className="center ani-head">AniBlitz!</h4>
             <p>A football themed version of the famous 90’s game Tamagotchi. Users must interact with their AniBLitz! character to prevent them from dying.</p>
             <p>*Best viewed in browser</p>
-            <h5>Technologies Used</h5>
+            <h5 className="ani-head2">Technologies Used</h5>
             <p>HTML5 | CSS | JavaScript</p>
           </div>
           <div className="col s12 m6">
@@ -149,7 +149,7 @@ const Projects = (props) => {
                 target="_blank"
                 node="a"
                 waves="light"
-                className="black btns"
+                className="btns ani-btn"
               >
                 Live App
               </Button>
@@ -158,7 +158,7 @@ const Projects = (props) => {
                 target="_blank"
                 node="a"
                 waves="light"
-                className="black btns"
+                className="btns ani-btn"
               >
                 GitHub
               </Button>

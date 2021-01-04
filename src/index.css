@@ -21,9 +21,34 @@ body {
   border-radius: 10px;
 }
 
+.ani-head {
+  color: rgb(255,83,73);
+}
+
+.ani-head {
+  color: rgb(255,83,73);
+}
+
+.ani-head2 {
+  color: rgb(135, 206, 235);
+}
+
 .btns {
   border: solid white 1px;
   margin-right: 10px;
+}
+
+.ani-btn {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.ani-btn:hover {
+  font-family: 'zorque';
+  color: black;
+  border-color: rgb(255,83,73);
+  background-color: green;
 }
 
 .footer {
