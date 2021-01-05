@@ -24,6 +24,7 @@ const Projects = (props) => {
           <div className="col s12 m6">
             <img 
               src={ sote } 
+              alt=""
               width="450px"
               className="proj-img"
             />
@@ -50,8 +51,7 @@ const Projects = (props) => {
           </div>
           <div className="col s12 m6" >
             <h4 className="center sot-head">Sons of Thunder Electrical</h4>
-            <p>A football themed version of the famous 90’s game Tamagotchi. Users must interact with their AniBLitz! character to prevent them from dying.</p>
-            <p>*Best viewed in browser</p>
+            <p>An elctrical business app that allows current and new clients to view the electrical services provided by Sons of Thunder Electrical and the ability to reach out to the company with their inquiries.</p>
             <h5 className="sot-head2">Technologies Used</h5>
             <p>Python | CSS | Materialize | JavaScript | Django | PostgreSQL</p>
           </div>
@@ -68,6 +68,7 @@ const Projects = (props) => {
           <div className="col s12 m6">
             <img 
               src={ mytrax } 
+              alt=""
               width="450px"
               className="proj-img"
             />
@@ -99,6 +100,7 @@ const Projects = (props) => {
           <div className="col s12 m6">
             <img 
               src={ wayfarer } 
+              alt=""
               width="450px"
               className="proj-img"
             />
@@ -143,6 +145,7 @@ const Projects = (props) => {
           <div className="col s12 m6">
             <img 
               src={ aniblitz } 
+              alt=""
               width="450px"
               className="proj-img"
             />

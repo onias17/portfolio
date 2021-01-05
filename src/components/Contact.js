@@ -25,7 +25,7 @@ const Contact = (props) => {
           <i className="fa fa-github fa-fw"></i>
         </Button>
         <Button
-          href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+          href="mailto:oniasnephiisrael@gmail.com"
           target="_blank"
           node="a"
           waves="light"

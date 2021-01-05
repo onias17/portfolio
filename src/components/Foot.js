@@ -1,11 +1,10 @@
 import React from 'react';
-import { Footer } from 'react-materialize';
 
 const Foot = (props) => {
   return (
-    <Footer className="black footer">
+    <div className="black center container">
       <p>&copy; 2020 Onias Israel</p>
-    </Footer>
+    </div>
   );
 };
 

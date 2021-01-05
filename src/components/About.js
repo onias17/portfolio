@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-materialize';
 
 const About = (props) => {
   return (
@@ -8,8 +9,19 @@ const About = (props) => {
       </div>
       <div id="info">
         <h3>ONIAS ISRAEL</h3>
-        <p>I am a Software Developer</p>
-        <img src="" />
+        <h6>I am a Software Developer with a Math and Spanish background</h6>
+        <p>
+          <Button 
+            href="https://docs.google.com/document/d/1RMoQyviGUtHkcGNmxJ1IUT_2idiGcJb8suBvRdZIZHQ/edit"
+            target="_blank"
+            node="a"
+            waves="light"
+            className="resume-btn"
+          >
+            Resume
+          </Button>  
+        </p>
+        <img src="" alt="" />
       </div>
     </div>
   );

@@ -15,14 +15,38 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ABOUT */
+.resume-btn {
+  border: solid white 1px;
+  background-color: black;
+  color: white;
+}
+
+.resume-btn:visited {
+  background-color: black;
+  color: white;
+}
+
+.resume-btn:hover {
+  color: white;
+  background-color: green;
+}
+
 /* PROJECTS */
 .proj {
   margin-top: 50px;
   margin-bottom: 50px;
+  opacity: .5;
+}
+
+.proj:hover {
+  opacity: 1;
 }
 
 .proj-img {
+  border: solid white 1px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .sot-btn {
