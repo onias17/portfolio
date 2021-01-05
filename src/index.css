@@ -11,6 +11,10 @@ body {
   position: relative;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* PROJECTS */
 .proj {
   margin-top: 50px;
@@ -21,16 +25,51 @@ body {
   border-radius: 10px;
 }
 
-.ani-head {
-  color: rgb(255,83,73);
+.sot-btn {
+  background-color: black;
+  color: white;
 }
 
-.ani-head {
-  color: rgb(255,83,73);
+.sot-btn:visited {
+  background-color: black;
+  color: white;
 }
 
-.ani-head2 {
-  color: rgb(135, 206, 235);
+.sot-btn:hover {
+  color: white;
+  border-color: rgb(255,196,0);
+  background-color: rgb(112,112,112);
+}
+
+.trax-btn {
+  background-color: black;
+  color: white;
+}
+
+.trax-btn:visited {
+  background-color: black;
+  color: white;
+}
+
+.trax-btn:hover {
+  color: white;
+  border-color: rgb(103,55,179);
+  background-color: rgb(103,55,179);
+}
+
+.way-btn {
+  background-color: black;
+  color: white;
+}
+
+.way-btn:visited {
+  background-color: black;
+  color: white;
+}
+
+.way-btn:hover {
+  color: white;
+  background-color: #03a9f4;
 }
 
 .btns {
@@ -41,7 +80,11 @@ body {
 .ani-btn {
   background-color: black;
   color: white;
-  border-color: white;
+}
+
+.ani-btn:visited {
+  background-color: black;
+  color: white;
 }
 
 .ani-btn:hover {
@@ -49,6 +92,64 @@ body {
   color: black;
   border-color: rgb(255,83,73);
   background-color: green;
+}
+
+/* CONTACT */
+#contact {
+  margin-bottom: 65px;
+}
+
+.social-btns {
+  color: white;
+  background-color: black;
+  margin-right: 25px;
+}
+
+.social-btn {
+  color: white;
+  background-color: black;
+}
+
+.linkedin {
+  border: solid white 1px;
+}
+
+.linkedin:visited {
+  background-color: black;
+  border: solid white 1px;
+}
+
+.linkedin:hover {
+  background-color: rgb(0,119,181);
+  border: none;
+}
+
+.github {
+  border: solid white 1px;
+}
+
+.github:visited {
+  background-color: black;
+  border: solid white 1px;
+}
+
+.github:hover {
+  color: black;
+  background-color: white;
+}
+
+.google {
+  border: solid white 1px;
+}
+
+.google:visited {
+  background-color: black;
+  border: solid white 1px;
+}
+
+.google:hover {
+  background-color: rgb(220,78,65);
+  border: none;
 }
 
 .footer {

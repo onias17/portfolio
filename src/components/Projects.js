@@ -16,11 +16,11 @@ const Projects = (props) => {
         }}
       />
       <div className="section black container">
-        <h2 className="header">
+        <h2 className="header center">
           Projects
         </h2>
         {/* SONS OF THUNDER ELECTRICAL */}
-        <div className="row proj" id="aniblitz">
+        <div className="row proj" id="sot">
           <div className="col s12 m6">
             <img 
               src={ sote } 
@@ -33,7 +33,7 @@ const Projects = (props) => {
                 target="_blank"
                 node="a"
                 waves="light"
-                className="black btns"
+                className="btns sot-btn"
               >
                 Live App
               </Button>
@@ -42,27 +42,28 @@ const Projects = (props) => {
                 target="_blank"
                 node="a"
                 waves="light"
-                className="black btns"
+                className="btns sot-btn"
               >
                 GitHub
               </Button>
             </div>
           </div>
           <div className="col s12 m6" >
-            <h4 className="center">Sons of Thunder Electrical</h4>
+            <h4 className="center sot-head">Sons of Thunder Electrical</h4>
             <p>A football themed version of the famous 90’s game Tamagotchi. Users must interact with their AniBLitz! character to prevent them from dying.</p>
             <p>*Best viewed in browser</p>
-            <h5>Technologies Used</h5>
-            <p>HTML5 | CSS | JavaScript</p>
+            <h5 className="sot-head2">Technologies Used</h5>
+            <p>Python | CSS | Materialize | JavaScript | Django | PostgreSQL</p>
           </div>
         </div>
+        <hr />
         {/* MYTRAX */}
         <div className="row proj" id="mytrax">
           <div className="col s12 m6" >
-            <h4 className="center">myTrax</h4>
+            <h4 className="center trax-head">myTrax</h4>
             <p>A music app where users can create playlists of their favorite tracks and genre and share it with others. Users can also listen to Spotify and YouTube tracks directly from the app.</p>
             <h5>Technologies Used</h5>
-            <p>HTML5 | CSS | Bootstrap | JavaScript | Express | Node | MongoDB | Mongoose</p>
+            <p>HTML | CSS | Bootstrap | JavaScript | Express | Node | MongoDB | Mongoose</p>
           </div>
           <div className="col s12 m6">
             <img 
@@ -76,7 +77,7 @@ const Projects = (props) => {
                 target="_blank"
                 node="a"
                 waves="light"
-                className="black btns"
+                className="btns trax-btn"
               >
                 Live App
               </Button>
@@ -85,15 +86,16 @@ const Projects = (props) => {
                 target="_blank"
                 node="a"
                 waves="light"
-                className="black btns"
+                className="btns trax-btn"
               >
                 GitHub
               </Button>
             </div>
           </div>
         </div>
+        <hr />
         {/* WAYFARER */}
-        <div className="row proj" id="aniblitz">
+        <div className="row proj" id="wayfarer">
           <div className="col s12 m6">
             <img 
               src={ wayfarer } 
@@ -106,7 +108,7 @@ const Projects = (props) => {
                 target="_blank"
                 node="a"
                 waves="light"
-                className="black btns"
+                className="btns way-btn"
               >
                 Live App
               </Button>
@@ -115,27 +117,28 @@ const Projects = (props) => {
                 target="_blank"
                 node="a"
                 waves="light"
-                className="black btns"
+                className="btns way-btn"
               >
                 GitHub
               </Button>
             </div>
           </div>
           <div className="col s12 m6" >
-            <h4 className="center">Wayfarer</h4>
-            <p>A football themed version of the famous 90’s game Tamagotchi. Users must interact with their AniBLitz! character to prevent them from dying.</p>
+            <h4 className="center way-head">Wayfarer</h4>
+            <p>A travel blog app where users can create profiles to post pictures from the beautiful cities and countries they have travelled to and also comment on other users' posts as well.</p>
             <h5>Technologies Used</h5>
-            <p>HTML5 | CSS | JavaScript</p>
+            <p>Python | CSS | Materialize | JavaScript | Django | PostgreSQL</p>
           </div>
         </div>
+        <hr />
         {/* ANIBLITZ */}
-        <div className="row proj" id="mytrax">
+        <div className="row proj" id="aniblitz">
           <div className="col s12 m6" >
             <h4 className="center ani-head">AniBlitz!</h4>
             <p>A football themed version of the famous 90’s game Tamagotchi. Users must interact with their AniBLitz! character to prevent them from dying.</p>
             <p>*Best viewed in browser</p>
             <h5 className="ani-head2">Technologies Used</h5>
-            <p>HTML5 | CSS | JavaScript</p>
+            <p>HTML | CSS | JavaScript</p>
           </div>
           <div className="col s12 m6">
             <img 
