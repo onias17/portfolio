@@ -11,6 +11,7 @@ const Projects = (props) => {
   return (
     <div className="" id="projects">
       <Parallax
+        className="repsonsive-img"
         image={<img alt="coding" src={ me }/>}
         options={{
           responsiveThreshold: 0
@@ -22,6 +23,12 @@ const Projects = (props) => {
         </h2>
         {/* SONS OF THUNDER ELECTRICAL */}
         <div className="row proj" id="sot">
+          <div className="col s12 m6" >
+            <h4 className="center sot-head">Sons of Thunder Electrical</h4>
+            <p>An elctrical business app that allows current and new clients to view the electrical services provided by Sons of Thunder Electrical and the ability to reach out to the company with their inquiries.</p>
+            <h5 className="sot-head2">Technologies Used</h5>
+            <p>Python | CSS | Materialize | JavaScript | Django | PostgreSQL</p>
+          </div>
           <div className="col s12 m6">
             <img 
               src={ sote } 
@@ -50,12 +57,6 @@ const Projects = (props) => {
                 GitHub
               </Button>
             </div> */}
-          </div>
-          <div className="col s12 m6" >
-            <h4 className="center sot-head">Sons of Thunder Electrical</h4>
-            <p>An elctrical business app that allows current and new clients to view the electrical services provided by Sons of Thunder Electrical and the ability to reach out to the company with their inquiries.</p>
-            <h5 className="sot-head2">Technologies Used</h5>
-            <p>Python | CSS | Materialize | JavaScript | Django | PostgreSQL</p>
           </div>
         </div>
         <hr />
@@ -99,6 +100,12 @@ const Projects = (props) => {
         <hr />
         {/* WAYFARER */}
         <div className="row proj" id="wayfarer">
+          <div className="col s12 m6" >
+            <h4 className="center way-head">Wayfarer</h4>
+            <p>A travel blog app where users can create profiles to post pictures from the beautiful cities and countries they have travelled to and also comment on other users' posts as well.</p>
+            <h5>Technologies Used</h5>
+            <p>Python | CSS | Materialize | JavaScript | Django | PostgreSQL</p>
+          </div>
           <div className="col s12 m6">
             <img 
               src={ wayfarer } 
@@ -126,12 +133,6 @@ const Projects = (props) => {
                 GitHub
               </Button>
             </div>
-          </div>
-          <div className="col s12 m6" >
-            <h4 className="center way-head">Wayfarer</h4>
-            <p>A travel blog app where users can create profiles to post pictures from the beautiful cities and countries they have travelled to and also comment on other users' posts as well.</p>
-            <h5>Technologies Used</h5>
-            <p>Python | CSS | Materialize | JavaScript | Django | PostgreSQL</p>
           </div>
         </div>
         <hr />

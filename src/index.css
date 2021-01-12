@@ -40,11 +40,6 @@ html {
 .proj {
   margin-top: 50px;
   margin-bottom: 50px;
-  opacity: .5;
-}
-
-.proj:hover {
-  opacity: 1;
 }
 
 .proj-img {
