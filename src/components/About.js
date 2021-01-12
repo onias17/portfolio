@@ -13,7 +13,7 @@ const About = (props) => {
         <br />
         <p>
           <Button 
-            href="https://docs.google.com/document/d/1RMoQyviGUtHkcGNmxJ1IUT_2idiGcJb8suBvRdZIZHQ/edit"
+            href="https://drive.google.com/file/d/10ZoNeGirDloSwZU4Fje1CFrxy6cRH5zw/view?usp=sharing"
             target="_blank"
             node="a"
             waves="light"
