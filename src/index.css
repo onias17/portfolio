@@ -16,6 +16,10 @@ html {
 }
 
 /* ABOUT */
+.proj-con {
+  margin-top: 10px;
+}
+
 .resume-btn {
   border: solid white 1px;
   background-color: black;
@@ -185,4 +189,8 @@ html {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.parallax-container {
+  height: 300px;
 }

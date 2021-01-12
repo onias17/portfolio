@@ -4,12 +4,13 @@ import { Button } from 'react-materialize';
 const About = (props) => {
   return (
     <div className="container" id="about">
-      <div className="header center">
+      <div className="header center proj-con">
         <a href="#projects" className="white-text">Projects</a> | <a href="#contact" className="white-text">Contact</a>  
       </div>
-      <div id="info">
+      <div className="center" id="info">
         <h3>ONIAS ISRAEL</h3>
-        <h6>I am a Software Developer with a Math and Spanish background</h6>
+        <h6>I am a Full Stack Software Developer with a Math and Spanish background</h6>
+        <br />
         <p>
           <Button 
             href="https://docs.google.com/document/d/1RMoQyviGUtHkcGNmxJ1IUT_2idiGcJb8suBvRdZIZHQ/edit"

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Parallax, Button } from 'react-materialize';
+import me from '../images/me.jpg';
 import coding from '../images/coding.jpg'
 import sote from '../images/sote.png'
 import mytrax from '../images/mytrax.png'
@@ -10,7 +11,7 @@ const Projects = (props) => {
   return (
     <div className="" id="projects">
       <Parallax
-        image={<img alt="coding" src={ coding }/>}
+        image={<img alt="coding" src={ me }/>}
         options={{
           responsiveThreshold: 0
         }}
@@ -28,7 +29,8 @@ const Projects = (props) => {
               width="450px"
               className="proj-img"
             />
-            <div>
+            <p className="">*Coming soon</p>
+            {/* <div>
               <Button
                 href="https://sot-electrical.herokuapp.com/"
                 target="_blank"
@@ -47,7 +49,7 @@ const Projects = (props) => {
               >
                 GitHub
               </Button>
-            </div>
+            </div> */}
           </div>
           <div className="col s12 m6" >
             <h4 className="center sot-head">Sons of Thunder Electrical</h4>
@@ -173,7 +175,7 @@ const Projects = (props) => {
         </div>
       </div>
       <Parallax
-        image={<img alt="" src="http://materializecss.com/images/parallax2.jpg"/>}
+        image={<img alt="" src={ coding }/>}
         options={{
           responsiveThreshold: 0
         }}
