@@ -117,7 +117,7 @@ const Projects = (props) => {
                 Live App
               </Button>
               <Button
-                href="https://github.com/onias17/wayfarer"
+                href="https://github.com/onias17/way"
                 target="_blank"
                 node="a"
                 waves="light"
