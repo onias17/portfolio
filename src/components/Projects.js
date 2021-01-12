@@ -108,7 +108,7 @@ const Projects = (props) => {
             />
             <div>
               <Button
-                href="https://wayfarer-20.herokuapp.com/"
+                href="https://way2020.herokuapp.com/"
                 target="_blank"
                 node="a"
                 waves="light"
