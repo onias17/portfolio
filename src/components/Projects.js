@@ -9,10 +9,10 @@ import aniblitz from '../images/aniblitz.png'
 
 const Projects = (props) => {
   return (
-    <div className="" id="projects">
+    <div className="container" id="projects">
       <Parallax
-        className="repsonsive-img"
-        image={<img alt="coding" src={ me }/>}
+        className="gif"
+        image={<img alt="coding" src="https://media.giphy.com/media/3o7WTQcjUp6JnP7s52/giphy.gif"/>}
         options={{
           responsiveThreshold: 0
         }}
