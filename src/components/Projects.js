@@ -9,10 +9,10 @@ import aniblitz from '../images/aniblitz.png'
 
 const Projects = (props) => {
   return (
-    <div className="container" id="projects">
+    <div className="" id="projects">
       <Parallax
-        className="gif"
-        image={<img alt="coding" src="https://media.giphy.com/media/3o7WTQcjUp6JnP7s52/giphy.gif"/>}
+        className=""
+        image={<img alt="coding" src="https://media.giphy.com/media/3oEjHJDWnOmPTcd1YY/giphy.gif"/>}
         options={{
           responsiveThreshold: 0
         }}
@@ -176,7 +176,8 @@ const Projects = (props) => {
         </div>
       </div>
       <Parallax
-        image={<img alt="" src={ coding }/>}
+        className=""
+        image={<img alt="" src="https://media.giphy.com/media/3oEjHJDWnOmPTcd1YY/giphy.gif"/>}
         options={{
           responsiveThreshold: 0
         }}
