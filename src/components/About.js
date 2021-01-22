@@ -9,7 +9,7 @@ const About = (props) => {
       </div>
       <div className="center" id="info">
         <h3>ONIAS ISRAEL</h3>
-        <h6>I am a Full Stack Software Developer with a Math and Spanish background</h6>
+        <h6>Software Engineer</h6>
         <br />
         <p>
           <Button 
