@@ -22,7 +22,7 @@ const Projects = (props) => {
           Projects
         </h2>
         {/* SONS OF THUNDER ELECTRICAL */}
-        <div className="row proj" id="sot">
+        {/* <div className="row proj" id="sot">
           <div className="col s12 m6" >
             <h4 className="center sot-head">Sons of Thunder Electrical</h4>
             <p>An elctrical business app that allows current and new clients to view the electrical services provided by Sons of Thunder Electrical and the ability to reach out to the company with their inquiries.</p>
@@ -36,7 +36,7 @@ const Projects = (props) => {
               width="450px"
               className="proj-img"
             />
-            <p className="">*Coming soon</p>
+            <p className="">*Coming soon</p> */}
             {/* <div>
               <Button
                 href="https://sot-electrical.herokuapp.com/"
@@ -57,9 +57,9 @@ const Projects = (props) => {
                 GitHub
               </Button>
             </div> */}
-          </div>
+          {/* </div>
         </div>
-        <hr />
+        <hr /> */}
         {/* MYTRAX */}
         <div className="row proj" id="mytrax">
           <div className="col s12 m6" >
